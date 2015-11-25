@@ -7,8 +7,9 @@ $image="scrum.jpg";
 $content_preview ="In general, scrum at Mayden does not consist of two teams trying to destroy each other...";
 
 $content="In general, scrum at Mayden does not consist of two teams trying to destroy each other. Instead, it's a working
-methodology that allows teams to collaboratively work on a project without becoming destructive to each other, each time
-and the project as well. The rugby scrum is still a good analogy, but instead of teams you have Mayden pushing against the
+methodology that allows teams to collaboratively work on a project without becoming destructive to each other, productivity
+and the project as a whole. The rugby scrum is still a good analogy, but instead of teams you have Mayden pushing
+against the
  project.
 <p>
 Scrum will only work efficiently if the entire company embraces it. From the stakeholders, to the product owner, to the

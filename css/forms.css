@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+#container{
+  background-color: #000066;
+  color: yellow;
+  width:70%;
+  margin: auto;
+  text-align: center;
+}
+#header{
+  background-color: #FF9900;
+  text-align: left;
+  height: 40px;
+  padding: 10px;
+}
+#footer{
+  height: 40px;
+  background-color: #FF9900;
+  padding-top:7px;
+}
+.box{
+  height: 30px;
+  margin: 8px;
+  width:250px;
+  border-radius: 5px;
+}
+.datebox {
+  width:74px;
+  font-size: 100px;
+  margin: 5px;
+}
+.country-box{
+  font-size: 100px;
+  margin: 8px;
+  width:250px;
+  border-radius: 5px;
+}
+.buttons{
+  position: relative;
+  right: 130px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.buttons-term{
+  position: relative;
+  right: 62px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#submit-button{
+  height: 25px;
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+  border: 1px solid green;
+}
+#cancel-button{
+  height: 25px;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  border: 1px solid red;
+  margin-right: 5px;
+}

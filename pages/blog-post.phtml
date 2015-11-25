@@ -1,0 +1,23 @@
+<?php
+$blog_post = $_GET['post'];
+if (!$blog_post) {
+  $blog_post = "2015-09-17-Why-I-Want-To-Code.inc";
+}
+
+include "blog-posts/$blog_post";
+
+?>
+
+<div id="header-bottom">
+  <div class="head-left" id="post-head-left"><?php echo $title; ?></div><div class="head-right"><?php echo $date; ?></div>
+</div>
+<div id="container" class="background-photo">
+  <div id="single-post">
+    <h1><?php echo $title;?></h1>
+    <h3><?php echo $author;?>&nbsp; &nbsp; &nbsp; &nbsp;<?php echo "$date"; ?></h3>
+    <img src="img/<?php echo $image;?>" class="post-image">
+    <p>
+      <?php echo $content; ?>
+    </p>
+  </div>
+</div>

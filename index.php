@@ -1,0 +1,16 @@
+<?php
+
+$content_page = $_GET['page'];
+if (!$content_page) {
+  $content_page = "blog";
+}
+
+include "layouts/default.phtml";
+
+?>
+
+
+
+<?php
+
+?>
